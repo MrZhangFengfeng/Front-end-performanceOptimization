@@ -1,4 +1,4 @@
-# mySDK
+# mySDK(通用的缓存SDK)
 
 ## 功能：
 
