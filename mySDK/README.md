@@ -29,7 +29,7 @@
 	- isIE：判断是否为IE浏览器，localStorage对IE支持度不太好。如果是IE，就不用localstorage方法来存储
 	- checkHedge ：检测本地缓存是否溢出
 	- startup ： 启动方法，也就是读取本地缓存
-	- save :　保存缓存与startup相对应
+	- saveSDK :　保存缓存与startup相对应
 	
 
 - 缓存展示能力，浏览器的DOM解析器。
