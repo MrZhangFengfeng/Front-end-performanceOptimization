@@ -22,4 +22,14 @@
 
 - 本地存储能力，localSDK。
 
+	- resourceVersion : 维护本地缓存版本，跟新数据
+	- resourceJavascriptList ： 需要缓存的文件列表(只缓存重要的文件，不是所有文件都缓存，如果都要缓存对
+		浏览器性能是不好的)
+	- needdUpdate ： 检测文件是否需要跟新
+	- isIE：判断是否为IE浏览器，localStorage对IE支持度不太好。如果是IE，就不用localstorage方法来存储
+	- checkHedge ：检测本地缓存是否溢出
+	- startup ： 启动方法，也就是读取本地缓存
+	- save :　保存缓存与startup相对应
+	
+
 - 缓存展示能力，浏览器的DOM解析器。
